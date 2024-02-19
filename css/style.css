@@ -39,10 +39,10 @@ h1 img {
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px #fff, 0 0 30px #f0e9ec, 0 0 40px #e60073, 0 0 50px #f5eff2, 0 0 60px #e60073, 0 0 70px #ec0d0d;
+      text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px #fff, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ec0d0d, 0 0 40px #ec0d0d, 0 0 50px #ec0d0d, 0 0 60px #ec0d0d, 0 0 70px #f3eaea, 0 0 80px #e6dfdf;
+      text-shadow: 0 0 20px #fff, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00;
     }
   }*/
