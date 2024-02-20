@@ -1,8 +1,7 @@
 body {
+     background-color: tomato;
     background-image: url(/Gifs/oj.gif);
-    background-size: cover;
-    background-color: tomato;
-    padding:3em;
+
     
     
 }
