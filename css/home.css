@@ -16,7 +16,7 @@ html, body {
     loop="true"
     muted="true"
     ondurationchange="this.muted = 'false';">
-    <source src="Music.mp3" type="audio/mpeg">
+    <source src="songs" type="audio/mpeg">
 </audio> 
 <a href="#"
     onclick="document.getElementById('bg-audio').pause(); return false;">
