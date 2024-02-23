@@ -10,7 +10,19 @@ html, body {
 * {
     margin: 0;
 }
-
+<audio id="bg-audio"
+    preload="auto"
+    autoplay="true"
+    loop="true"
+    muted="true"
+    ondurationchange="this.muted = 'false';">
+    <source src="Music.mp3" type="audio/mpeg">
+</audio> 
+<a href="#"
+    onclick="document.getElementById('bg-audio').pause(); return false;">
+    stop music (plus whatever graphics and/or elements you prefer)
+</a>
+}
 .container img:nth-of-type(1) {
     width: 90px;
     position: absolute;
