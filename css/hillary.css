@@ -1,0 +1,100 @@
+* { box-sizing: border-box; }
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0 30px 60px 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: #222;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 12px;
+    background: rgba(20, 20, 20, 0.94);
+    border-right: 8px solid #888;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin: 4px 0;
+    border: 2px solid #000;
+    background: rgba(189, 76, 57, 0.92);
+    text-align: center;
+}
+
+#menu a {
+    display: block;
+    padding: 5px 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#menu a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.hillary-page {
+    max-width: 950px;
+    margin: 25px auto;
+}
+
+.hillary-title {
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 8px 16px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.85);
+    border: 5px solid #fff;
+    font-size: 48px;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.content-box {
+    min-height: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.86);
+    border: 8px ridge #777;
+    box-shadow: 0 0 18px #000;
+}
+
+.content-box h2 {
+    margin-top: 0;
+}
+
+.content-box textarea {
+    display: block;
+    width: 100%;
+    min-height: 500px;
+    padding: 14px;
+    resize: vertical;
+    font: 18px/1.5 Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.96);
+    color: #111;
+    border: 4px inset #777;
+}
+
+.prime .content-box {
+    border-style: double;
+    border-width: 12px;
+}
